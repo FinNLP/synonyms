@@ -24,9 +24,5 @@ synonyms.dictionary
 // returns the whole dictionary
 ```
 
-
-## Why this exists?
-WordNet database is huge one, consider this as a light faster version of it.
-
 ## License
 The MIT License
