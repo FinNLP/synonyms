@@ -19,4 +19,17 @@ describe('synonyms', function () {
 	it('marked & deep', function () {
 		assert.equal(Array.isArray(synonyms("vibrate","v")),true);
 	});
+	it('Counting dictionary', function () {
+		this.timeout(30000);
+		var words = [];
+		for (var entry in synonyms.dictionary) {
+			if(!~words.indexOf(entry)) words.push(entry);
+			for(var type in synonyms.dictionary[entry]) {
+				synonyms.dictionary[entry][type].forEach((x)=>{
+					if(!~words.indexOf(x)) words.push(x);
+				});
+			}
+		}
+		console.log("     " + words.length);
+	});
 });
