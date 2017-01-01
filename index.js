@@ -1,7 +1,7 @@
 const dictionary = require('./dictionary.js');
 const synonyms = function(word,type){
-	word = word.toLowerCase();
-	type = type.toLowerCase();
+	word = (word || "").toLowerCase();
+	type = (type || "").toLowerCase();
 	var entry = dictionary[word] || deep(word); // doesn't exist
 	if(!entry) return undefined;
 	else if(type) return entry[type];
