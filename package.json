@@ -1,0 +1,24 @@
+{
+  "name": "synonyms",
+  "version": "1.0.0",
+  "description": "a library to get the synoyms of the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcorvi/synonyms.git"
+  },
+  "keywords": [
+    "synoyms",
+    "english",
+    "nlp"
+  ],
+  "author": "Alex Corvi <alex@arrayy.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcorvi/synonyms/issues"
+  },
+  "homepage": "https://github.com/alexcorvi/synonyms#readme"
+}
