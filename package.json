@@ -1,6 +1,6 @@
 {
   "name": "synonyms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a library to get the synoyms of the world",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexcorvi/synonyms.git"
+    "url": "git+https://github.com/finnlp/synonyms.git"
   },
   "keywords": [
     "synoyms",
@@ -18,7 +18,7 @@
   "author": "Alex Corvi <alex@arrayy.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexcorvi/synonyms/issues"
+    "url": "https://github.com/finnlp/synonyms/issues"
   },
-  "homepage": "https://github.com/alexcorvi/synonyms#readme"
+  "homepage": "https://github.com/finnlp/synonyms#readme"
 }
