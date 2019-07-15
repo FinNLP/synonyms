@@ -26,7 +26,7 @@ synonyms.dictionary
 
 ## Size
 
-This library has 27779 words in it's dictionary.
+This library has 27779 words in its dictionary.
 
 Expanding the dictionary must be through the file `src.json` then run `node build` to build a new dictionary. 
 
