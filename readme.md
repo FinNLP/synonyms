@@ -24,6 +24,8 @@ synonyms.dictionary
 // returns the whole dictionary
 ```
 
+The key returned from synonyms denotes the type of the synonyms that follow it. E.g., 'n' denotes that the following synonyms are nouns, 'v' denotes verbs, so on and so forth. 
+
 ## Size
 
 This library has 27779 words in its dictionary.
