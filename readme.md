@@ -24,7 +24,7 @@ synonyms.dictionary
 // returns the whole dictionary
 ```
 
-The key returned from synonyms denotes the type of the following synonyms; e.g., 'n' denotes that the following synonyms are nouns, 'v' denotes verbs, so on and so forth. 
+The key returned from synonyms denotes the type of the synonyms that follow it. E.g., 'n' denotes that the following synonyms are nouns, 'v' denotes verbs, so on and so forth. 
 
 ## Size
 
